@@ -3,6 +3,7 @@ message: "If you use this code or data, please cite it using the metadata below.
 type: software
 title: "Replication package for: Arbitrage-Constrained Neural Interpolation of the Implied Volatility Surface: Evidence from NSE Index Options"
 version: 1.0.0
+doi: 10.5281/zenodo.23728871
 authors:
   - family-names: Jain
     given-names: Pramukh Rajendra

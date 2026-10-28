@@ -1,5 +1,7 @@
 # NIFTY IV surface: replication folder
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23728872.svg)](https://doi.org/10.5281/zenodo.23728872)
+
 Code and derived data behind "Arbitrage-Constrained Neural Interpolation of the Implied Volatility Surface:
 Evidence from NSE Index Options" (Jain and Sinha). Third-party market data (NSE bhavcopy, Upstox candles) are not redistributed; see "Data not included" below.
 
@@ -37,4 +39,4 @@ Without these files you can still reproduce every table and figure in Sections I
 
 ## How to cite
 
-See `CITATION.cff` (GitHub shows it under "Cite this repository"). The archived release has a Zenodo DOI.
+See `CITATION.cff` (GitHub shows it under "Cite this repository"). Archived on Zenodo: v1.0.0 is [10.5281/zenodo.23728872](https://doi.org/10.5281/zenodo.23728872); all versions are [10.5281/zenodo.23728871](https://doi.org/10.5281/zenodo.23728871).
