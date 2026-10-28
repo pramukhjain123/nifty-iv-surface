@@ -1,0 +1,4 @@
+folds: ['fold0.pkl', 'fold1.pkl', 'fold10.pkl', 'fold11.pkl', 'fold12.pkl', 'fold13.pkl', 'fold14.pkl', 'fold15.pkl', 'fold16.pkl', 'fold17.pkl', 'fold2.pkl', 'fold3.pkl', 'fold4.pkl', 'fold5.pkl', 'fold6.pkl', 'fold7.pkl', 'fold8.pkl', 'fold9.pkl']  days=1065
+BUTTERFLY (paper rule: 61 pts/maturity over visible range +-20% padding; Durrleman g by central differences h=1e-3): slices=7339; slices with any violation: all=0.0000%  observed=0.0000%  padding=0.0000%; grid points violating=0.00000% of 447679; undefined w=0
+CALENDAR (consecutive expiries, shared per-day 121-pt k grid): pairs=6274; pairs with any violation=0.0000%; min w(next)-w(prev)=0.000e+00
+BETWEEN LISTED MATURITIES (25 tau x 121 k per day): calendar violations 0/3092760 (min step 0.000e+00); price-convexity violations 0/3168375
