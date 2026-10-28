@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it using the metadata below."
+type: software
+title: "Replication package for: Arbitrage-Constrained Neural Interpolation of the Implied Volatility Surface: Evidence from NSE Index Options"
+version: 1.0.0
+authors:
+  - family-names: Jain
+    given-names: Pramukh Rajendra
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, India"
+  - family-names: Sinha
+    given-names: Mallika
+    affiliation: "School of Social Sciences and Languages, Vellore Institute of Technology, Chennai, India"
+    email: mallika.sinha@vit.ac.in
+    orcid: "https://orcid.org/0000-0001-7918-820X"
+repository-code: "https://github.com/pramukhjain123/nifty-iv-surface"
+license: MIT
+abstract: >-
+  Code and derived data behind PNmix (prior-network mixture), an implied
+  volatility surface for NIFTY 50 index options that is free of butterfly and
+  calendar arbitrage by construction. The package builds the evaluation panel
+  from NSE F&O bhavcopy files (2020-2026), fits PNmix and the benchmark
+  methods (SVI, SSVI, Fengler's smoother, thin-plate and cubic splines) on
+  18 expanding-origin folds, and reproduces every table and figure in the
+  paper, including the intraday backtest in Section VII.
+keywords:
+  - implied volatility surface
+  - no-arbitrage constraints
+  - neural networks
+  - lognormal mixtures
+  - quadratic programming
+  - NIFTY 50
+  - NSE
+  - index options

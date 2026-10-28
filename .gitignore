@@ -16,3 +16,8 @@ __pycache__/
 .copy.sh
 .copy.log
 .w
+
+# third-party data that cannot be redistributed (NSE / Upstox terms); rebuild with the scripts in code/
+data/intraday_1min/*.csv.gz
+data/pipeline/02_parsed/*.parquet
+data/pipeline/03_filtered/nifty_filtered.parquet
