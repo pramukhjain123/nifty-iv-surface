@@ -1,0 +1,19 @@
+paths:
+  data_root: "E:\\Research\\data"
+  raw_bhavcopy: "E:\\Research\\data\\code downloaded data"
+  normalized_bhavcopy: "E:\\Research\\pramukh\\data\\combined_bhavcopy_normalized.parquet"
+  iv_surface_root: "E:\\Research\\iv_surface"
+
+sample:
+  start: "2020-01-01"
+  end: "2026-01-30"
+  underlying: "NIFTY"
+
+filters:      # Phase 1 section 1.4, tune later -- placeholders from the plan
+  tau_min_days: 7
+  tau_max_years: 1.0
+  moneyness_min: -0.35
+  moneyness_max: 0.25
+  min_strikes_per_slice: 8
+
+seed: 42
