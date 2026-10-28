@@ -1,0 +1,18 @@
+# raw NSE bhavcopy (1.1 GB) is archived on Zenodo, not in git
+data/raw_bhavcopy/
+
+# secrets and local files
+.env
+.env.*
+*.pem
+
+# python / build
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# helper files
+.copy.sh
+.copy.log
+.w
